@@ -1,0 +1,23 @@
+/* Add this CSS to your stylesheet or inline styles */
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  right: 5%;
+  transform: translateY(-50%);
+}
